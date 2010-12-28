@@ -36,8 +36,13 @@ line that just goes and goes."""
   print caps.replace('SHOUT','YELL')
   swapped = caps.replace('SHOUT','YELL')
   print swapped.swapcase().capitalize()
-  shorty = 'This short text has spaces between the words.'.translate(None)
+  shorty = 'This short text has spaces between the words.'
   print shorty
+  shorter = 'This short text has no spaces between the words.'.translate(None,' ')
+  print shorter
+  splits = shorty.split(' ')
+  print splits
+  print splits[5]
 
 if __name__ == '__main__':
   main()
