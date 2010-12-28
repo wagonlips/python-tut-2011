@@ -43,6 +43,7 @@ line that just goes and goes."""
   splits = shorty.split(' ')
   print splits
   print splits[5]
+  print splits[:-1]
 
 if __name__ == '__main__':
   main()
