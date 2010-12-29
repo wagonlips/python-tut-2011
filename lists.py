@@ -22,5 +22,16 @@ def main():
   for i in fruity:
     print i
 
+  print ''
+  print 'Check this...'
+  mylist = ['aaa', 'bbb', 'ccc', 'ddd', 'eee']
+  print len(mylist)
+  while i < len(mylist):
+    print 'iterating ' + str[i]
+    print mylist[i]
+    i += 1
+  print mylist
+
+
 if __name__ == '__main__':
   main()
