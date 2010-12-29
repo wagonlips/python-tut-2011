@@ -38,16 +38,16 @@ def match_ends(words):
 def front_x(words):
   i = 0
   xwords = []
-  print 'length is: ' + str(len(words))
+  awords = []
   while i < len(words):
     myword = words[i]
-    print words[i]
     if myword[0] == 'x':
-      print 'got one ' + myword[0]
-      xwords.append(words.pop(i))
+      xwords.append(words[i])
+    else:
+      awords.append(words[i])
     i += 1
-    print xwords
-  return words
+  allwords = sorted(xwords) + sorted(awords)
+  return allwords
 
 
 

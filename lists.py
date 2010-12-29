@@ -26,10 +26,13 @@ def main():
   print 'Check this...'
   mylist = ['aaa', 'bbb', 'ccc', 'ddd', 'eee']
   print len(mylist)
+  i = 0
   while i < len(mylist):
-    print 'iterating ' + str[i]
+    print i
     print mylist[i]
     i += 1
+    print 'iterating ' + str(i)
+  print 'Printing '
   print mylist
 
 
